@@ -94,7 +94,7 @@ public class PictureTester
         //testMyEdgeDetection();
         //morphTest();
         //blurTest();
-        testZeroBlue();
+        //testZeroBlue();
         //testPrimaries();
         //testKeepOnlyBlue();
         //testKeepOnlyRed();
