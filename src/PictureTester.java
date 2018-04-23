@@ -113,27 +113,48 @@ public class PictureTester
 		fish.explore();
 	}
 
-	  public static void testMirrorVerticalRightToLeft()
-	  {
-	    Picture redMotorycle = new Picture("redMotorcycle.jpg");
-	    redMotorycle.explore();
-	    redMotorycle.mirrorVerticalRightToLeft();
-	    redMotorycle.explore();
-	  }
-	  public static void testMirrorHorizontal()
-	  {
-	    Picture redMotorycle = new Picture("redMotorcycle.jpg");
-	    redMotorycle.explore();
-	    redMotorycle.mirrorHorizontal();
-	    redMotorycle.explore();
-	  }
-	  public static void testMirrorHorizontalBotToTop()
-	  {
-	    Picture redMotorycle = new Picture("redMotorcycle.jpg");
-	    redMotorycle.explore();
-	    redMotorycle.mirrorHorizontalBotToTop();
-	    redMotorycle.explore();
-	  }
+	public static void testMirrorVerticalRightToLeft()
+	{
+		Picture redMotorycle = new Picture("redMotorcycle.jpg");
+		redMotorycle.explore();
+		redMotorycle.mirrorVerticalRightToLeft();
+		redMotorycle.explore();
+	}
+	public static void testMirrorHorizontal()
+	{
+		Picture redMotorycle = new Picture("redMotorcycle.jpg");
+		redMotorycle.explore();
+		redMotorycle.mirrorHorizontal();
+		redMotorycle.explore();
+	}
+	public static void testMirrorHorizontalBotToTop()
+	{
+		Picture redMotorycle = new Picture("redMotorcycle.jpg");
+		redMotorycle.explore();
+		redMotorycle.mirrorHorizontalBotToTop();
+		redMotorycle.explore();
+	}
+	public static void testMirrorDiagonal()
+	{
+		Picture beach = new Picture("beach.jpg");
+		beach.explore();
+		beach.mirrorDiagonal();
+		beach.explore();
+	}
+	public static void testMirrorArms()
+	{
+		Picture snowman = new Picture("snowman.jpg");
+		snowman.explore();
+		snowman.mirrorArms();
+		snowman.explore();
+	}
+	public static void testMirrorGull()
+	{
+		Picture gull = new Picture("seagull.jpg");
+		gull.explore();
+		gull.mirrorGull();
+		gull.explore();
+	}
 
 	/** Main method for testing.  Every class can have a main
 	 * method in Java */
@@ -147,20 +168,20 @@ public class PictureTester
 		//		blurTest();
 		//testZeroBlue();
 		//testPrimaries();
-//				testKeepOnlyBlue();
+		//				testKeepOnlyBlue();
 		//testKeepOnlyRed();
 		//testKeepOnlyGreen();
 		//		testNegate();
 		//		testGrayscale();
-//		testFixUnderwater();
+		//		testFixUnderwater();
 		//testMirrorVertical();
 		//testMirrorTemple();
-		//testMirrorArms();
-		//testMirrorGull();
-		//testMirrorDiagonal();
-//		testMirrorVerticalRightToLeft();
-//		testMirrorHorizontal();
-//		testMirrorHorizontalBotToTop();
+//		testMirrorArms();
+		testMirrorGull();
+//		testMirrorDiagonal();
+		//		testMirrorVerticalRightToLeft();
+		//		testMirrorHorizontal();
+		//		testMirrorHorizontalBotToTop();
 		//testCollage();
 		//testCopy();
 		//testEdgeDetection();
