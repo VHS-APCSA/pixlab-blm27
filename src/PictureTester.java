@@ -81,6 +81,13 @@ public class PictureTester
 		swan.edgeDetection(5);
 		swan.explore();
 	}
+	public static void testMyEdgeDetection2()
+	{
+		Picture swan = new Picture("swan.jpg");
+		swan.explore();
+		swan.myEdgeDetection2(20);
+		swan.explore();
+	}
 	public static void testMyEdgeDetection()
 	{
 		Picture pic = new Picture("blue-mark.jpg");
@@ -183,14 +190,15 @@ public class PictureTester
 		//testMirrorTemple();
 //		testMirrorArms();
 //		testMirrorGull();
-//		testMirrorDiagonal();
+//		testMirrorDiagonal();s
 		//		testMirrorVerticalRightToLeft();
 		//		testMirrorHorizontal();
 		//		testMirrorHorizontalBotToTop();
 //		testCollage();
 //		testMyCollage();
 		//testCopy();
-		//testEdgeDetection();
+//		testEdgeDetection();
+		testMyEdgeDetection2();
 //		testEdgeDetection2();
 		//testChromakey();
 		//testEncodeAndDecode();
